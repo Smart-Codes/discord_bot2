@@ -1,0 +1,4 @@
+discord.py-self==2.1.0
+requests==2.31.0
+python-dotenv==1.0.1
+audioop-lts>=0.2.0   # Required for Python 3.13 compatibility (backports removed audioop module)
