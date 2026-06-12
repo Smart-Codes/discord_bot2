@@ -10,9 +10,9 @@ from discord import Client
 from dotenv import load_dotenv
 
 load_dotenv()
-DISCORD_USER_TOKEN   = os.getenv("DISCORD_USER_TOKEN")
-TELEGRAM_BOT_TOKEN   = os.getenv("TELEGRAM_BOT_TOKEN")
-TELEGRAM_CHAT_ID     = os.getenv("TELEGRAM_CHAT_ID")
+DISCORD_USER_TOKEN   = os.getenv("DISCORD_USER_TOKENN")
+TELEGRAM_BOT_TOKEN   = os.getenv("TELEGRAM_BOT_TOKENN")
+TELEGRAM_CHAT_ID     = os.getenv("TELEGRAM_CHAT_IDD")
 
 
 # Leave empty list [] to monitor EVERY server the account is in
